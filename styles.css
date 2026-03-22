@@ -1,0 +1,54 @@
+
+
+html{
+    background-color: rgb(223, 255, 136);
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+.site-header {
+    background-color: rgb(226, 145, 192);
+    padding: 15;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.main-content {
+    background-color: rgb(68, 197, 143);
+    flex: 30%;
+    padding: 15px;
+}
+
+
+.sidebar{
+    background-color: rgb(43, 112, 89);
+    flex: 70%;
+    padding: 15px;
+}
+
+.site-footer{
+    background-color: rgb(171, 189, 216);
+    padding: 15px;
+    margin-top: 20px;
+    
+}
+
+.site-nav {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px;
+    margin: 0px;
+    gap: 15px;
+}
+
+.flex-container {
+    display: flex;
+    gap: 20px;
+}
+
